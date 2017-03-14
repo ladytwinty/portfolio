@@ -1,0 +1,26 @@
+@import "bourbon/bourbon"
+
+$main_color: #303263 //фиолетовый цвет
+$color: #f6ae48 //желто-коричневый
+$letter: #f3f3f3 //цвет больших букв
+
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+h1,
+h2,
+h3,
+p
+	+kerning(1)
+body,
+a
+	color: #000
+
+.header
+	color: #fff
+.menu
+	a
+		+kerning(1)
+		&:hover
+			color: $color

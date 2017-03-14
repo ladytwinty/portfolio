@@ -1,0 +1,110 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif !important
+	font-weight: normal
+	min-width: 320px
+	position: relative
+	width: 100%
+
+.hidden
+	display: none
+
+.header
+	background-image: url("../img/main.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-color: #fff
+	box-shadow: 0 0 0 450px rgba(48, 60, 99, .70) inset
+.header_wrap
+	display: table
+	width: 100%
+	height: 100%
+	padding: 70px 0
+	.header_descr
+		display: table-row
+		.header_center
+			display: table-cell
+			text-align: center
+			vertical-align: middle
+			h1
+				text-transform: uppercase
+				display: inline-block
+				font-size: 30px
+				font-weight: bold
+				margin: 10px 10px
+			.text
+				margin: 0
+				display: inline-block
+				width: 60%
+				font-size: 15px
+	.header_block
+		width: 90%
+		display: inline-flex
+		justify-content: center
+		flex-wrap: wrap
+		margin-top: 55px
+		.block_item
+			width: 240px
+			padding: 25px 0
+			border: 1px solid #fff
+			margin-right: 30px
+			position: relative
+			//&:last-child
+				//margin-right: 0
+			.title
+				font-size: 36px
+				font-weight: 700
+			p
+				margin: 0
+			i
+				font-size: 32px
+				position: absolute
+				left: 100px
+				top: -15px
+				z-index: 1000
+				background-color: rgba(48, 60, 99, .85)
+.menu_wrap
+	text-align: right
+	border-bottom: 2px solid #adadad
+	padding: 10px 15px
+	z-index: 80
+	ul
+		list-style-type: none
+		li
+			display: inline-block
+			margin-right: 15px
+			a
+				font-size: 16px
+				text-decoration: none
+				padding: 5px 10px
+				cursor: pointer
+				transition: all .4s
+				font-weight: 600
+.about
+	margin-top: 70px
+	.studio
+		text-align: center
+		font-size: 24px
+		font-weight: 600
+		padding-top: 20px
+	.decor
+		position: relative
+		p
+			z-index: 50
+			position: relative
+			line-height: 1.6
+			margin-left: 30px
+		&:after
+			content: "we"
+			font-size: 320px
+			font-weight: 700
+			color: #f3f3f3
+			position: absolute
+			z-index: -5
+			bottom: -120px
+
+
+
+
+

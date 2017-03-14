@@ -1,0 +1,17 @@
+h1,
+h2,
+h3,
+p {
+  letter-spacing: 1px; }
+
+body,
+a {
+  color: #000; }
+
+.header {
+  color: #fff; }
+
+.menu a {
+  letter-spacing: 1px; }
+  .menu a:hover {
+    color: #f6ae48; }
