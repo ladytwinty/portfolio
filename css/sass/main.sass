@@ -55,20 +55,20 @@ body
 			.title
 				font-size: 36px
 				font-weight: 700
+				padding-top: 10px
 			p
 				margin: 0
 			i
-				font-size: 32px
+				font-size: 36px
 				position: absolute
 				left: 100px
 				top: -15px
 				z-index: 1000
-				background-color: rgba(48, 60, 99, .85)
+				background-color: rgba(48, 60, 99, .9)
 .menu_wrap
 	text-align: right
 	border-bottom: 2px solid #adadad
 	padding: 10px 15px
-	z-index: 80
 	ul
 		list-style-type: none
 		li
@@ -82,28 +82,85 @@ body
 				transition: all .4s
 				font-weight: 600
 .about
-	margin-top: 70px
+	margin: 80px 0
 	.studio
 		text-align: center
 		font-size: 24px
 		font-weight: 600
-		padding-top: 20px
+		padding-top: 15px
 	.decor
 		position: relative
+		font-size: 16px
 		p
 			z-index: 50
 			position: relative
 			line-height: 1.6
-			margin-left: 30px
+			margin-left: 40px
+			color: #4e4e4e
 		&:after
 			content: "we"
-			font-size: 320px
+			font-size: em(380px)
 			font-weight: 700
 			color: #f3f3f3
 			position: absolute
 			z-index: -5
-			bottom: -120px
-
+			top: -210px
+.block2_wrap
+	transition: all .4s
+	padding: 15px
+	height: auto
+	&:hover
+		background-color: #f6ae48
+		color: #fff
+.block2
+	margin-top: 70px
+	font-size: 14px
+	.block2_icon
+		display: inline-block
+		i
+			font-size: 32px
+			margin-top: 5px
+			color: #00b9e7
+	h2
+		font-size: 16px
+		margin-top: 20px
+	p
+		line-height: 1.5
+		color: #4e4e4e
+	.next
+		text-align: right
+		display: block
+		font-size: 24px
+		margin-right: 15px
+		a
+			color: #00b9e7
+			&:hover
+				color: #fff
+.credo
+	background-image: url("../img/main.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-color: #fff
+	box-shadow: 0 0 0 450px rgba(48, 60, 99, .70) inset
+	width: 100%
+	height: 100%
+	color: #fff
+	height: 350px
+	.credo_wrap
+		margin-top: 100px
+		text-align: center
+		.credo_title
+			font-size: 20px
+			text-transform: uppercase
+			display: inline-block
+			font-weight: bold
+			h2
+				margin-bottom: 10px
+		.credo_descr
+			display: inline-block
+			width: 90%
+			p
+				margin: 0
 
 
 
