@@ -115,13 +115,15 @@ body {
       top: -210px; }
 
 .block2_wrap {
-  -webkit-transition: all 0.4s;
-          transition: all 0.4s;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
   padding: 15px;
   height: auto; }
   .block2_wrap:hover {
     background-color: #f6ae48;
     color: #fff; }
+    .block2_wrap:hover p {
+      color: #fff; }
 
 .block2 {
   margin-top: 70px;
@@ -157,7 +159,8 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  height: 350px; }
+  height: 350px;
+  position: relative; }
   .credo .credo_wrap {
     margin-top: 100px;
     text-align: center; }
@@ -173,3 +176,24 @@ body {
       width: 90%; }
       .credo .credo_wrap .credo_descr p {
         margin: 0; }
+
+.develop {
+  position: relative; }
+  .develop .dev_wrap {
+    margin-top: 50px; }
+  .develop .dev {
+    position: absolute;
+    background-color: #f6ae48;
+    bottom: -115px;
+    height: 250px;
+    width: 350px;
+    z-index: 0; }
+    .develop .dev h3 {
+      color: #fff;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 70px; }
+  .develop .dev_block {
+    border: 1px solid #000;
+    z-index: 10; }
