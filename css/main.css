@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
-  box-shadow: 0 0 0 450px rgba(48, 60, 99, 0.7) inset; }
+  box-shadow: 0 0 0 880px rgba(48, 60, 99, 0.7) inset; }
 
 .header_wrap {
   display: table;
@@ -114,40 +114,43 @@ body {
       z-index: -5;
       top: -210px; }
 
+.block2 {
+  margin-top: 70px;
+  font-size: 14px;
+  position: relative; }
+
 .block2_wrap {
   -webkit-transition: all 0.5s;
           transition: all 0.5s;
-  padding: 15px;
+  padding: 4%;
   height: auto; }
   .block2_wrap:hover {
     background-color: #f6ae48;
     color: #fff; }
     .block2_wrap:hover p {
       color: #fff; }
-
-.block2 {
-  margin-top: 70px;
-  font-size: 14px; }
-  .block2 .block2_icon {
+  .block2_wrap .block2_icon {
     display: inline-block; }
-    .block2 .block2_icon i {
+    .block2_wrap .block2_icon i {
       font-size: 32px;
       margin-top: 5px;
       color: #00b9e7; }
-  .block2 h2 {
+  .block2_wrap h2 {
     font-size: 16px;
     margin-top: 20px; }
-  .block2 p {
+  .block2_wrap p {
     line-height: 1.5;
     color: #4e4e4e; }
-  .block2 .next {
-    text-align: right;
+  .block2_wrap .next {
     display: block;
-    font-size: 24px;
-    margin-right: 15px; }
-    .block2 .next a {
-      color: #00b9e7; }
-      .block2 .next a:hover {
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+    .block2_wrap .next a {
+      color: #00b9e7;
+      margin: 30px 35px 20px 0; }
+      .block2_wrap .next a:hover {
         color: #fff; }
 
 .credo {
@@ -157,43 +160,84 @@ body {
   background-color: #fff;
   box-shadow: 0 0 0 450px rgba(48, 60, 99, 0.7) inset;
   width: 100%;
-  height: 100%;
+  height: auto;
   color: #fff;
-  height: 350px;
+  height: auto;
   position: relative; }
   .credo .credo_wrap {
     margin-top: 100px;
-    text-align: center; }
+    text-align: center;
+    padding: 8% 0;
+    box-sizing: border-box; }
     .credo .credo_wrap .credo_title {
       font-size: 20px;
       text-transform: uppercase;
       display: inline-block;
       font-weight: bold; }
       .credo .credo_wrap .credo_title h2 {
-        margin-bottom: 10px; }
+        margin-bottom: 20px; }
     .credo .credo_wrap .credo_descr {
       display: inline-block;
-      width: 90%; }
-      .credo .credo_wrap .credo_descr p {
-        margin: 0; }
-
-.develop {
-  position: relative; }
-  .develop .dev_wrap {
-    margin-top: 50px; }
-  .develop .dev {
+      width: 80%;
+      margin: 0 0 20px 0;
+      z-index: 99; }
+  .credo .dev {
     position: absolute;
     background-color: #f6ae48;
-    bottom: -115px;
-    height: 250px;
-    width: 350px;
-    z-index: 0; }
-    .develop .dev h3 {
+    top: 310px;
+    height: 300px;
+    width: 400px;
+    z-index: 0;
+    padding: 10px; }
+    .credo .dev h3 {
       color: #fff;
       text-align: center;
       font-size: 26px;
       font-weight: 700;
-      margin-top: 70px; }
+      margin-top: 50px; }
+
+.develop {
+  margin-top: 90px; }
+  .develop .dev_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .develop .dev_block {
+    -webkit-flex-basis: 280px;
+        -ms-flex-preferred-size: 280px;
+            flex-basis: 280px;
     border: 1px solid #000;
-    z-index: 10; }
+    z-index: 10;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #f3f3f3;
+    color: #fff; }
+    .develop .dev_block .dev_title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
+      margin-top: 15px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 10px; }
+  .develop .bcg_1,
+  .develop .bcg_2,
+  .develop .bcg_3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    box-shadow: 0 0 0 450px rgba(14, 15, 17, 0.65) inset;
+    width: 100%; }
+  .develop .bcg_1 {
+    background-image: url("../img/4.jpg"); }
+  .develop .bcg_2 {
+    background-image: url("../img/13.jpg"); }
+  .develop .bcg_3 {
+    background-image: url("../img/4.jpg"); }

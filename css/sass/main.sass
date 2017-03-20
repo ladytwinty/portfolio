@@ -15,7 +15,7 @@ body
 	background-repeat: no-repeat
 	background-size: cover
 	background-color: #fff
-	box-shadow: 0 0 0 450px rgba(48, 60, 99, .70) inset
+	box-shadow: 0 0 0 880px rgba(48, 60, 99, .70) inset
 .header_wrap
 	display: table
 	width: 100%
@@ -50,6 +50,7 @@ body
 			border: 1px solid #fff
 			margin-right: 30px
 			position: relative
+
 			//&:last-child
 				//margin-right: 0
 			.title
@@ -105,18 +106,21 @@ body
 			position: absolute
 			z-index: -5
 			top: -210px
+
+.block2
+	margin-top: 70px
+	font-size: 14px
+	position: relative
+
 .block2_wrap
 	transition: all .5s
-	padding: 15px
+	padding: 4%
 	height: auto
 	&:hover
 		background-color: #f6ae48
 		color: #fff
 		p
 			color: #fff
-.block2
-	margin-top: 70px
-	font-size: 14px
 	.block2_icon
 		display: inline-block
 		i
@@ -130,12 +134,15 @@ body
 		line-height: 1.5
 		color: #4e4e4e
 	.next
-		text-align: right
 		display: block
-		font-size: 24px
-		margin-right: 15px
+		font-size: 28px
+		
+		position: absolute
+		bottom: 0
+		right: 0
 		a
 			color: #00b9e7
+			margin: 30px 35px 20px 0
 			&:hover
 				color: #fff
 .credo
@@ -145,43 +152,76 @@ body
 	background-color: #fff
 	box-shadow: 0 0 0 450px rgba(48, 60, 99, .70) inset
 	width: 100%
-	height: 100%
+	height: auto
 	color: #fff
-	height: 350px
+	height: auto
 	position: relative
 	.credo_wrap
 		margin-top: 100px
 		text-align: center
+		padding: 8% 0
+		box-sizing: border-box
 		.credo_title
 			font-size: 20px
 			text-transform: uppercase
 			display: inline-block
 			font-weight: bold
 			h2
-				margin-bottom: 10px
+				margin-bottom: 20px
 		.credo_descr
 			display: inline-block
-			width: 90%
-			p
-				margin: 0
-.develop
-	position: relative
-	.dev_wrap
-		margin-top: 50px
+			width: 80%
+			margin: 0 0 20px 0
+			z-index: 99
 	.dev
 		position: absolute
 		background-color: #f6ae48
-		bottom: -115px
-		height: 250px
-		width: 350px
+		top: 310px
+		height: 300px
+		width: 400px
 		z-index: 0
+		padding: 10px
 		h3
 			color: #fff
 			text-align: center
 			font-size: 26px
 			font-weight: 700
-			margin-top: 70px
+			margin-top: 50px
+.develop
+	margin-top: 90px
+	.dev_wrap
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
 	.dev_block
+		flex-basis: 280px
 		border: 1px solid #000
 		z-index: 10
+		padding: 15px
+		margin-right: 20px
+		background-color: #f3f3f3
+		color: #fff
+		.dev_title
+			text-transform: uppercase
+			font-weight: 700
+			font-size: 24px
+			margin-top: 15px
+			border-bottom: 1px solid #fff
+			padding-bottom: 10px
+	.bcg_1,
+	.bcg_2,
+	.bcg_3
+		background-repeat: no-repeat
+		background-size: cover
+		background-color: #fff
+		box-shadow: 0 0 0 450px rgba(14, 15, 17, .65) inset
+		width: 100%
+	.bcg_1
+		background-image: url("../img/4.jpg")
+	.bcg_2
+		background-image: url("../img/13.jpg")
+	.bcg_3
+		background-image: url("../img/4.jpg")
+
+
 
