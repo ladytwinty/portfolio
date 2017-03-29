@@ -1,5 +1,5 @@
 function heightDetect() { // подгон хедера под размер экрана
-		$(".header").css("height", $(window).height())
+		$(".header").css("height", $(window).height());
 	};
 
 	heightDetect();
